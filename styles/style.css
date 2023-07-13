@@ -296,7 +296,7 @@ body {
 }
 
 .order-form-input {
-  background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+  background: linear-gradient(95.61deg, #da8023 0%, #e2b438 100%);
   width: 344px;
   height: 62px;
   border-radius: 8px;
@@ -323,8 +323,17 @@ body {
   height: 62px;
 }
 
+.footer {
+  padding: 60px 0;
+}
 
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-
-
-
+.rights {
+  font-size: 16px;
+  line-height: 20px;
+}
